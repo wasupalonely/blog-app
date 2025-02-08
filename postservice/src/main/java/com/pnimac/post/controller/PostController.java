@@ -42,6 +42,7 @@ public class PostController {
     	List<PostDTO> postDTOs = posts.stream()
                 .map(PostDTO::fromEntity) 
                 .collect(Collectors.toList());
+        System.out.println("Posts" + postDTOs);
         return postDTOs;
     }
 

@@ -8,14 +8,14 @@ const userAuthAPI = axios.create({
 });
 
 const postAPI = axios.create({
-    baseURL: "http://localhost:8082/api",
+    baseURL: "http://localhost:8083/api",
     headers: {
         "Content-Type": "application/json",
     },
 });
 
 const commentAPI = axios.create({
-    baseURL: "http://localhost:8083/api",
+    baseURL: "http://localhost:8082/api",
     headers: {
         "Content-Type": "application/json",
     },

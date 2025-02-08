@@ -11,6 +11,6 @@ spring.cloud.gateway.routes[1].id=postservice
 spring.cloud.gateway.routes[1].uri=lb://postservice
 spring.cloud.gateway.routes[1].predicates[0]=Path=/postservice/**
 
-spring.cloud.gateway.routes[2].id=commentservice
-spring.cloud.gateway.routes[2].uri=lb://commentservice
-spring.cloud.gateway.routes[2].predicates[0]=Path=/commentservice/**
+spring.cloud.gateway.routes[1].id=commentservice
+spring.cloud.gateway.routes[1].uri=lb://commentservice
+spring.cloud.gateway.routes[1].predicates[0]=Path=/commentservice/**
